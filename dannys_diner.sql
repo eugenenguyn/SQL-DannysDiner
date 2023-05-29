@@ -1,5 +1,5 @@
 Entity Relationship Diagram
-
+![Untitled](https://github.com/eugenenguyn/SQL-DannysDiner/assets/134667107/f3e84d28-8842-461e-bbd4-227d3d429917)
 -- 1/ What is the total amount each customer spent at the restaurant?
 SELECT customer_id, SUM(price) AS total_amout
 FROM sales AS s
